@@ -1,21 +1,24 @@
-const defaultTheme = require('tailwindcss/defaultTheme');
+const defaultTheme = require("tailwindcss/defaultTheme")
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-    content: [
-        './vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php',
-        './vendor/laravel/jetstream/**/*.blade.php',
-        './storage/framework/views/*.php',
-        './resources/views/**/*.blade.php',
-    ],
+	content: [
+		"./vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php",
+		"./vendor/laravel/jetstream/**/*.blade.php",
+		"./storage/framework/views/*.php",
+		"./resources/views/**/*.blade.php",
+	],
 
-    theme: {
-        extend: {
-            fontFamily: {
-                sans: ['Nunito', ...defaultTheme.fontFamily.sans],
-            },
-        },
-    },
+	theme: {
+		extend: {
+			fontFamily: {
+				outfit: ["Outfit", ...defaultTheme.fontFamily.sans],
+				inter: ["Inter", ...defaultTheme.fontFamily.sans],
+				jakarta: ["Plus Jakarta Sans", ...defaultTheme.fontFamily.serif],
+				jetBrainsMono: ["JetBrains Mono", ...defaultTheme.fontFamily.mono],
+			},
+		},
+	},
 
-    plugins: [require('@tailwindcss/forms'), require('@tailwindcss/typography')],
-};
+	plugins: [require("@tailwindcss/forms"), require("@tailwindcss/typography")],
+}
