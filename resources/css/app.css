@@ -6,103 +6,81 @@
 
 @layer base {
 	:root {
-		--color-primary: #ffffff;
-		--color-primary: #ecf0ff;
-		--color-primary: #dde4ff;
-		--color-primary: #c2cdff;
-		--color-primary: #9cafff;
-		--color-primary: #757dff;
-		--color-primary: #5754ff;
-		--color-primary: #4836f5;
-		--color-primary: #382ad6;
-		--color-primary: #2335ae;
-		--color-primary: #121155;
+		--color-primary-0: #ffffff;
+		--color-primary-50: #ecf0ff;
+		--color-primary-100: #dde4ff;
+		--color-primary-200: #c2cdff;
+		--color-primary-300: #9cafff;
+		--color-primary-400: #757dff;
+		--color-primary-500: #5754ff;
+		--color-primary-600: #4836f5;
+		--color-primary-700: #382ad6;
+		--color-primary-800: #2335ae;
+		--color-primary-900: #121155;
 
-		--color-secondary: #ffffff;
-		--color-secondary: #f4f6fb;
-		--color-secondary: #e8eef8;
-		--color-secondary: #e1e7f1;
-		--color-secondary: #c9d2e0;
-		--color-secondary: #96a3ba;
-		--color-secondary: #697690;
-		--color-secondary: #545e73;
-		--color-secondary: #151e2d;
-		--color-secondary: #0f1623;
-		--color-secondary: #090e17;
+		--color-secondary-0: #ffffff;
+		--color-secondary-50: #f4f6fb;
+		--color-secondary-100: #e8eef8;
+		--color-secondary-200: #e1e7f1;
+		--color-secondary-300: #c9d2e0;
+		--color-secondary-400: #96a3ba;
+		--color-secondary-500: #697690;
+		--color-secondary-600: #545e73;
+		--color-secondary-700: #151e2d;
+		--color-secondary-800: #0f1623;
+		--color-secondary-900: #090e17;
 	}
 
 	.laraBlade-theme-dark {
-		--color-primary: #ffffff;
-		--color-primary: #ecf0ff;
-		--color-primary: #dde4ff;
-		--color-primary: #c2cdff;
-		--color-primary: #9cafff;
-		--color-primary: #757dff;
-		--color-primary: #5754ff;
-		--color-primary: #4836f5;
-		--color-primary: #382ad6;
-		--color-primary: #2335ae;
-		--color-primary: #121155;
+		--color-primary-0: #ffffff;
+		--color-primary-50: #ecf0ff;
+		--color-primary-100: #dde4ff;
+		--color-primary-200: #c2cdff;
+		--color-primary-300: #9cafff;
+		--color-primary-400: #757dff;
+		--color-primary-500: #5754ff;
+		--color-primary-600: #4836f5;
+		--color-primary-700: #382ad6;
+		--color-primary-800: #2335ae;
+		--color-primary-900: #121155;
 
-		--color-secondary: #ffffff;
-		--color-secondary: #f4f6fb;
-		--color-secondary: #e8eef8;
-		--color-secondary: #e1e7f1;
-		--color-secondary: #c9d2e0;
-		--color-secondary: #96a3ba;
-		--color-secondary: #697690;
-		--color-secondary: #545e73;
-		--color-secondary: #151e2d;
-		--color-secondary: #0f1623;
-		--color-secondary: #090e17;
-
-		/* Custom Colors */
-		--color-green: rgba(90, 237, 184, 1);
-		--color-green-accent: rgba(90, 237, 184, 0.2);
-
-		--color-yellow: rgba(255, 200, 58, 1);
-		--color-yellow-accent: rgba(255, 200, 58, 0.2);
-
-		--color-red: rgba(255, 49, 98, 1);
-		--color-red-accent: rgba(255, 49, 98, 0.2);
-
-		--color-gray: rgba(163, 174, 191, 1);
-		--color-gray-accent: rgba(163, 174, 191, 0.2);
-
-		--color-purple: rgba(151, 71, 255, 1);
-		--color-purple-accent: rgba(151, 71, 255, 0.2);
-
-		--color-blue: rgba(54, 122, 255, 1);
-		--color-blue-accent: rgba(54, 122, 255, 0.2);
-
-		--color-white: rgba(255, 255, 255, 1);
-		--color-white-accent: rgba(255, 255, 255, 0.2);
+		--color-secondary-0: #ffffff;
+		--color-secondary-50: #f4f6fb;
+		--color-secondary-100: #e8eef8;
+		--color-secondary-200: #e1e7f1;
+		--color-secondary-300: #c9d2e0;
+		--color-secondary-400: #96a3ba;
+		--color-secondary-500: #697690;
+		--color-secondary-600: #545e73;
+		--color-secondary-700: #151e2d;
+		--color-secondary-800: #0f1623;
+		--color-secondary-900: #090e17;
 	}
 
 	.laraBlade-theme-light {
-		--color-primary: #ffffff;
-		--color-primary: #ecf0ff;
-		--color-primary: #dde4ff;
-		--color-primary: #c2cdff;
-		--color-primary: #9cafff;
-		--color-primary: #757dff;
-		--color-primary: #5754ff;
-		--color-primary: #4836f5;
-		--color-primary: #382ad6;
-		--color-primary: #2335ae;
-		--color-primary: #121155;
+		--color-primary-0: #ffffff;
+		--color-primary-50: #ecf0ff;
+		--color-primary-100: #dde4ff;
+		--color-primary-200: #c2cdff;
+		--color-primary-300: #9cafff;
+		--color-primary-400: #757dff;
+		--color-primary-500: #5754ff;
+		--color-primary-600: #4836f5;
+		--color-primary-700: #382ad6;
+		--color-primary-800: #2335ae;
+		--color-primary-900: #121155;
 
-		--color-secondary: #ffffff;
-		--color-secondary: #f4f6fb;
-		--color-secondary: #e8eef8;
-		--color-secondary: #e1e7f1;
-		--color-secondary: #c9d2e0;
-		--color-secondary: #96a3ba;
-		--color-secondary: #697690;
-		--color-secondary: #545e73;
-		--color-secondary: #151e2d;
-		--color-secondary: #0f1623;
-		--color-secondary: #090e17;
+		--color-secondary-0: #ffffff;
+		--color-secondary-50: #f4f6fb;
+		--color-secondary-100: #e8eef8;
+		--color-secondary-200: #e1e7f1;
+		--color-secondary-300: #c9d2e0;
+		--color-secondary-400: #96a3ba;
+		--color-secondary-500: #697690;
+		--color-secondary-600: #545e73;
+		--color-secondary-700: #151e2d;
+		--color-secondary-800: #0f1623;
+		--color-secondary-900: #090e17;
 	}
 }
 
