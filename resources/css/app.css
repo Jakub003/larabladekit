@@ -6,107 +6,55 @@
 
 @layer base {
 	:root {
-		/* Brand Color */
-		--color-primary-100: rgba(87, 84, 255, 1);
-		--color-primary-200: rgba(130, 127, 255, 1);
-		--color-primary-300: rgba(7, 84, 255, 0.15);
-		--color-primary-400: rgba(7, 84, 255, 0.15);
-		--color-primary-500: rgba(7, 84, 255, 0.15);
+		--color-primary: #ffffff;
+		--color-primary: #ecf0ff;
+		--color-primary: #dde4ff;
+		--color-primary: #c2cdff;
+		--color-primary: #9cafff;
+		--color-primary: #757dff;
+		--color-primary: #5754ff;
+		--color-primary: #4836f5;
+		--color-primary: #382ad6;
+		--color-primary: #2335ae;
+		--color-primary: #121155;
 
-		/* Text */
-		--color-text-100: rgba(255, 255, 255, 1);
-		--color-text-200: rgba(124, 135, 159, 1);
-		--color-text-300: rgba(255, 255, 255, 1);
-		--color-text-400: rgba(255, 255, 255, 0.8);
-		--color-text-500: rgba(124, 135, 159, 0.45);
-
-		/* Backgrounds */
-		--color-background-100: rgba(9, 14, 23, 1);
-		--color-background-200: rgba(12, 18, 29, 1);
-		--color-background-300: rgba(13, 19, 32, 1);
-		--color-background-400: rgba(16, 23, 38, 1);
-		--color-background-500: rgba(24, 34, 54, 1);
-
-		/* Borders */
-		--color-border-100: rgba(22, 31, 50, 1);
-		--color-border-200: rgba(22, 31, 50, 1);
-		--color-border-300: rgba(24, 34, 55, 1);
-		--color-border-400: rgba(31, 45, 73, 1);
-		--color-border-500: rgba(16, 23, 38, 1);
-
-		/* Template */
-		--color-template-100: rgba(9, 14, 23, 1);
-		--color-template-200: rgba(12, 18, 29, 1);
-		--color-template-300: rgba(13, 19, 32, 1);
-		--color-template-400: rgba(16, 23, 38, 1);
-		--color-template-500: rgba(24, 34, 54, 1);
-		--color-template-600: rgba(24, 34, 54, 1);
-		--color-template-700: rgba(24, 34, 54, 1);
-		--color-template-800: rgba(24, 34, 54, 1);
-		--color-template-900: rgba(24, 34, 54, 1);
-
-		/* Custom Colors */
-		--color-green: rgba(90, 237, 184, 1);
-		--color-green-accent: rgba(90, 237, 184, 0.2);
-
-		--color-yellow: rgba(255, 200, 58, 1);
-		--color-yellow-accent: rgba(255, 200, 58, 0.2);
-
-		--color-red: rgba(255, 49, 98, 1);
-		--color-red-accent: rgba(255, 49, 98, 0.2);
-
-		--color-gray: rgba(163, 174, 191, 1);
-		--color-gray-accent: rgba(163, 174, 191, 0.2);
-
-		--color-purple: rgba(151, 71, 255, 1);
-		--color-purple-accent: rgba(151, 71, 255, 0.2);
-
-		--color-blue: rgba(54, 122, 255, 1);
-		--color-blue-accent: rgba(54, 122, 255, 0.2);
-
-		--color-white: rgba(255, 255, 255, 1);
-		--color-white-accent: rgba(255, 255, 255, 0.2);
+		--color-secondary: #ffffff;
+		--color-secondary: #f4f6fb;
+		--color-secondary: #e8eef8;
+		--color-secondary: #e1e7f1;
+		--color-secondary: #c9d2e0;
+		--color-secondary: #96a3ba;
+		--color-secondary: #697690;
+		--color-secondary: #545e73;
+		--color-secondary: #151e2d;
+		--color-secondary: #0f1623;
+		--color-secondary: #090e17;
 	}
 
 	.laraBlade-theme-dark {
-		/* Brand Color */
-		--color-primary-100: rgba(87, 84, 255, 1);
-		--color-primary-200: rgba(130, 127, 255, 1);
-		--color-primary-300: rgba(7, 84, 255, 0.15);
-		--color-primary-400: rgba(7, 84, 255, 0.15);
-		--color-primary-500: rgba(7, 84, 255, 0.15);
+		--color-primary: #ffffff;
+		--color-primary: #ecf0ff;
+		--color-primary: #dde4ff;
+		--color-primary: #c2cdff;
+		--color-primary: #9cafff;
+		--color-primary: #757dff;
+		--color-primary: #5754ff;
+		--color-primary: #4836f5;
+		--color-primary: #382ad6;
+		--color-primary: #2335ae;
+		--color-primary: #121155;
 
-		/* Text */
-		--color-text-100: rgba(255, 255, 255, 1);
-		--color-text-200: rgba(124, 135, 159, 1);
-		--color-text-300: rgba(255, 255, 255, 1);
-		--color-text-400: rgba(255, 255, 255, 0.8);
-		--color-text-500: rgba(124, 135, 159, 0.45);
-
-		/* Backgrounds */
-		--color-background-100: rgba(9, 14, 23, 1);
-		--color-background-200: rgba(12, 18, 29, 1);
-		--color-background-300: rgba(13, 19, 32, 1);
-		--color-background-400: rgba(16, 23, 38, 1);
-		--color-background-500: rgba(24, 34, 54, 1);
-
-		/* Borders */
-		--color-border-100: rgba(22, 31, 50, 1);
-		--color-border-200: rgba(22, 31, 50, 1);
-		--color-border-300: rgba(24, 34, 55, 1);
-		--color-border-400: rgba(31, 45, 73, 1);
-		--color-border-500: rgba(16, 23, 38, 1);
-
-		/* Template */
-		--color-template-100: rgba(9, 14, 23, 1);
-		--color-template-200: rgba(12, 18, 29, 1);
-		--color-template-300: rgba(13, 19, 32, 1);
-		--color-template-400: rgba(16, 23, 38, 1);
-		--color-template-500: rgba(24, 34, 54, 1);
-		--color-template-600: rgba(24, 34, 54, 1);
-		--color-template-700: rgba(24, 34, 54, 1);
-		--color-template-800: rgba(24, 34, 54, 1);
-		--color-template-900: rgba(24, 34, 54, 1);
+		--color-secondary: #ffffff;
+		--color-secondary: #f4f6fb;
+		--color-secondary: #e8eef8;
+		--color-secondary: #e1e7f1;
+		--color-secondary: #c9d2e0;
+		--color-secondary: #96a3ba;
+		--color-secondary: #697690;
+		--color-secondary: #545e73;
+		--color-secondary: #151e2d;
+		--color-secondary: #0f1623;
+		--color-secondary: #090e17;
 
 		/* Custom Colors */
 		--color-green: rgba(90, 237, 184, 1);
@@ -132,66 +80,29 @@
 	}
 
 	.laraBlade-theme-light {
-		/* Brand Color */
-		--color-primary-100: rgba(87, 84, 255, 1);
-		--color-primary-200: rgba(130, 127, 255, 1);
-		--color-primary-300: rgba(7, 84, 255, 0.15);
-		--color-primary-400: rgba(7, 84, 255, 0.15);
-		--color-primary-500: rgba(7, 84, 255, 0.15);
+		--color-primary: #ffffff;
+		--color-primary: #ecf0ff;
+		--color-primary: #dde4ff;
+		--color-primary: #c2cdff;
+		--color-primary: #9cafff;
+		--color-primary: #757dff;
+		--color-primary: #5754ff;
+		--color-primary: #4836f5;
+		--color-primary: #382ad6;
+		--color-primary: #2335ae;
+		--color-primary: #121155;
 
-		/* Text */
-		--color-text-100: rgba(9, 14, 23, 1);
-		--color-text-200: rgba(145, 156, 180, 1);
-		--color-text-300: rgba(145, 156, 180, 1);
-		--color-text-400: rgba(255, 255, 255, 0.8);
-		--color-text-500: rgba(124, 135, 159, 0.45);
-
-		/* Backgrounds */
-		--color-background-100: rgba(246, 248, 250, 1);
-		--color-background-200: rgba(254, 254, 254, 1);
-		--color-background-300: rgba(255, 255, 255, 1);
-		--color-background-400: rgba(250, 252, 254, 1);
-		--color-background-500: rgba(246, 249, 252, 1);
-
-		/* Borders */
-		--color-border-100: rgba(226, 234, 242, 1);
-		--color-border-200: rgba(218, 228, 237, 1);
-		--color-border-300: rgba(206, 216, 227, 1);
-		--color-border-400: rgba(190, 203, 217, 1);
-		--color-border-500: rgba(171, 186, 202, 1);
-
-		/* Template */
-		--color-template-100: rgba(246, 248, 250, 1);
-		--color-template-200: rgba(254, 254, 254, 1);
-		--color-template-300: rgba(255, 255, 255, 1);
-		--color-template-400: rgba(250, 252, 254, 1);
-		--color-template-500: rgba(246, 249, 252, 1);
-		--color-template-600: rgba(171, 186, 202, 1);
-		--color-template-700: rgba(171, 186, 202, 1);
-		--color-template-800: rgba(171, 186, 202, 1);
-		--color-template-900: rgba(171, 186, 202, 1);
-
-		/* Custom Colors */
-		--color-green: rgba(90, 237, 184, 1);
-		--color-green-accent: rgba(90, 237, 184, 0.2);
-
-		--color-yellow: rgba(255, 200, 58, 1);
-		--color-yellow-accent: rgba(255, 200, 58, 0.2);
-
-		--color-red: rgba(255, 49, 98, 1);
-		--color-red-accent: rgba(255, 49, 98, 0.2);
-
-		--color-gray: rgba(163, 174, 191, 1);
-		--color-gray-accent: rgba(163, 174, 191, 0.2);
-
-		--color-purple: rgba(151, 71, 255, 1);
-		--color-purple-accent: rgba(151, 71, 255, 0.2);
-
-		--color-blue: rgba(54, 122, 255, 1);
-		--color-blue-accent: rgba(54, 122, 255, 0.2);
-
-		--color-white: rgba(255, 255, 255, 1);
-		--color-white-accent: rgba(255, 255, 255, 0.2);
+		--color-secondary: #ffffff;
+		--color-secondary: #f4f6fb;
+		--color-secondary: #e8eef8;
+		--color-secondary: #e1e7f1;
+		--color-secondary: #c9d2e0;
+		--color-secondary: #96a3ba;
+		--color-secondary: #697690;
+		--color-secondary: #545e73;
+		--color-secondary: #151e2d;
+		--color-secondary: #0f1623;
+		--color-secondary: #090e17;
 	}
 }
 
