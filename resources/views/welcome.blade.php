@@ -13,7 +13,7 @@
 </head>
 
 <body x-data="{ darkMode: true }" class="h-full "
-    :class=" darkMode === true ? 'laraBlade-theme-dark dark' : 'laraBlade-theme-light'">
+    :class=" darkMode === true ? 'mcdonalds-theme-dark dark' : 'mcdonalds-theme-light'">
     <div class="h-full bg-secondary-50 dark:bg-secondary-900">
 
         <div x-data="{ mobileNavigation: false }" class="h-full ">
