@@ -13,7 +13,9 @@
 </head>
 
 <body class="antialiased">
-    <p>testing</p>
+    <div class="p-10 bg-red-300 dark:bg-green-400">
+        <p class="text-5xl">testing</p>
+    </div>
 </body>
 
 </html>
