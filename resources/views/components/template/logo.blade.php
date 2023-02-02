@@ -15,10 +15,10 @@
     </svg>
 
     <div class=" flex font-semibold">
-        <span class="text-2xl text-theme-base transition duration-150 ease-in ">
+        <span class="text-2xl text-secondary-900 dark:text-secondary-0 duration-150">
             Lara
         </span>
-        <span class="text-2xl text-theme-primary transition duration-150 ease-in">
+        <span class="text-2xl text-primary-500 duration-150">
             Blade
         </span>
     </div>

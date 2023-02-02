@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="h-full">
 
 <head>
     <meta charset="utf-8">
@@ -14,9 +14,9 @@
 
 <body x-data="{ darkMode: true }" class="h-full "
     :class=" darkMode === true ? 'laraBlade-theme-dark dark' : 'laraBlade-theme-light'">
-    <div class="h-full">
+    <div class="h-full bg-secondary-50 dark:bg-secondary-900">
 
-        <div x-data="{ mobileNavigation: false }" class="h-full bg-theme-100 text-theme-base">
+        <div x-data="{ mobileNavigation: false }" class="h-full ">
             <div class="flex h-full">
                 <!-- Sidebar -->
 
@@ -44,10 +44,10 @@
                             {{-- Hidden on mobille view --}}
 
                             <div class="hidden space-y-2 lg:block">
-                                <h3 class="text-2xl font-bold">Marketing</h3>
+                                <h3 class="text-2xl font-bold text-secondary-900 dark:text-secondary-0">Marketing</h3>
 
-                                <p class="text-theme-accent">Lorem ipsum lorem ipsum dolor sit amet, consectetur adipis
-                                </p>
+                                <p class=" text-secondary-500 dark:text-secondary-400">Lorem ipsum lorem
+                                    ipsum dolor sit amet, consectetur adipis</p>
                             </div>
 
                         </div>
@@ -56,9 +56,10 @@
                         {{-- Hidden on laptop and desktop views --}}
 
                         <div class="col-span-full space-y-2 lg:hidden">
-                            <h3 class="text-2xl font-bold">Marketing</h3>
+                            <h3 class="text-2xl font-bold text-secondary-900 dark:text-secondary-0">Marketing</h3>
 
-                            <p class="text-theme-accent">Lorem ipsum lorem ipsum dolor sit amet, consectetur adipis</p>
+                            <p class=" text-secondary-500 dark:text-secondary-400">Lorem ipsum lorem
+                                ipsum dolor sit amet, consectetur adipis</p>
 
                         </div>
 

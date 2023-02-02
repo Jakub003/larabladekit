@@ -24,24 +24,24 @@
     <div class="flex items-center justify-between w-full px-11">
         <div class="flex items-center space-x-4 ">
             <div
-                class="h-6 w-6  {{ Request::routeIs($route) ? 'text-theme-primary' : 'text-theme-muted group-hover:text-theme-primary-hover' }}">
+                class="h-6 w-6  {{ Request::routeIs($route) ? 'text-primary-500' : 'text-secondary-300 group-hover:text-primary-300' }}">
                 {{ $slot }}
             </div>
             <span
-                class="truncate capitalize font-semibold {{ Request::routeIs($route) ? ' text-theme-base' : 'text-theme-accent group-hover:text-theme-primary-hover' }}">
+                class="truncate capitalize font-semibold {{ Request::routeIs($route) ? ' text-primary-500' : 'text-secondary-300 group-hover:text-primary-300' }}">
                 {{ $label }}
             </span>
         </div>
 
-        @isset($count)
+        {{-- @isset($count)
             <div class="h-5 px-2 rounded-md flex items-center justify-items-center {{ $bgColors[$color] }}">
                 <p class="text-xs {{ $textColors[$color] }}">{{ $count }}</p>
             </div>
-        @endisset
+        @endisset --}}
 
     </div>
 
     <div
-        class="h-10 border-2 rounded-l-xl {{ Request::routeIs($route) ? ' border-theme-primary' : 'border-transparent group-hover:border-theme-primary-hover' }}">
+        class="h-10 border-2 rounded-l-xl {{ Request::routeIs($route) ? ' border-primary-500' : 'border-transparent group-hover:border-primary-300' }}">
     </div>
 </a>
