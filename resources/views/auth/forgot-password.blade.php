@@ -24,6 +24,10 @@
                 <x-jet-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autofocus />
             </div>
 
+            <div class="mt-4">
+                <x-google-recaptcha></x-google-recaptcha>
+            </div>
+
             <div class="flex items-center justify-end mt-4">
                 <x-jet-button>
                     {{ __('Email Password Reset Link') }}
